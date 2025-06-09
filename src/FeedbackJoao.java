@@ -16,10 +16,10 @@ public class FeedbackJoao {
         do {
             System.out.println("Por favor, insira uma nota de 0 a 10:");
             nota = scanner.nextInt();
-            if (nota < 0 || nota > 10) {
+            if (nota <= 0 && nota >= 10) {
                 System.out.println("Nota inválida! Por favor, insira uma nota entre 0 e 10.");
             }
-        } while (nota <= 0 || nota >= 10);
+        } while (nota <= 0 && nota >= 10);
 
         System.out.println("Pontos fortes: " + pontosFortes);
         System.out.println("Pontos a melhorar: " + pontosFracos);
