@@ -19,7 +19,7 @@ public class FeedbackJoao {
             if (nota < 0 || nota > 10) {
                 System.out.println("Nota inválida! Por favor, insira uma nota entre 0 e 10.");
             }
-        } while (nota < 0 || nota > 10);
+        } while (nota <= 0 || nota >= 10);
 
         System.out.println("Pontos fortes: " + pontosFortes);
         System.out.println("Pontos a melhorar: " + pontosFracos);
