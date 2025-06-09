@@ -54,8 +54,6 @@ public class Atividade {
         int ra = ler.nextInt();
 
         decideTurma();
-   
-
         exibirMenuFeedback();
 
 
