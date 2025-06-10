@@ -1,4 +1,4 @@
-lucas,programador prodigio e excelente aluno, obs:passivo
+lucas,programador prodigio e excelente aluno, obs:Ativo fodedor
 ninja renegado igual o itachi
 professor favorito : sandrinho
 comida : salsicha 
