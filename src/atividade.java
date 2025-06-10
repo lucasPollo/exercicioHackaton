@@ -1,13 +1,14 @@
 import java.util.Scanner;
 
-public class Atividade {
+public class atividade {
     public static Scanner ler = new Scanner(System.in);
     
     public static String[] turmas = {
-        "ADS", "Sistemas", "Agronomia", "Administração", "Arquitetura",
-        "Biomedicina", "Farmácia", "Contábeis", "Direito", "Eng. Civil",
-        "Veterinária", "Psicologia", "Psicopedagogia"
-    };
+        "ADS", "Sistemas", "Agronomia", "Administração"};
+
+
+    public static String[] professoresCursoAds = {"Sandro", "Anderson", "João", "Josimar"};
+    public static String[] professoresCursoSistemas = {"Felipe", "Anderson", "Sandro", "Douglas", "Joao"};
 
     public static int decideTurma() {
 
