@@ -50,6 +50,17 @@ public class atividade {
         System.out.println("Nota dada: " + nota);
 
     }
+
+    public static void mostrarProfessores() {
+
+
+for(int i =0; i < professoresCursoAds.length; i++) {
+    System.out.println(professoresCursoAds[i]);
+}
+
+
+        
+    }
     public static void main(String[] args) {
 
         System.out.println("Bem vindo ao sistema de avaliacoes de alunos!");
@@ -72,7 +83,7 @@ public class atividade {
         exibirMenuFeedback();
 
 
-
+mostrarProfessores();
 
 
 
