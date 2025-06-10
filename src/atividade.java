@@ -78,12 +78,25 @@ for(int i =0; i < professoresCursoAds.length; i++) {
         turmaz.limparTerminal();
         System.out.println("\n");
         System.out.println("Bem-vindo! "+ nome);
-        System.out.println("Sua turma escolhida foi: " + turmaSelecionada);
+        System.out.println("Sua turma escolhida foi: " + turmaSelecionada+"\n");
+
+        switch(turmaSelecionada){
+            case "ADS":
+            String[] professores = professoresCursoAds;
+            System.out.println("\nSeus professores são:");
+            for (int i = 0; i < professoresCursoAds.length; i++) {
+            System.out.printf(" %2d) %-15s\n", (i + 1), professores[i]);
+            }
+            Scanner av = new Scanner(System.in);
+            System.out.println("Que professor você gostaria de avaliar? (1-"+professores.length+")");
+            int escolhaAvaliar = av.nextInt();
+            
+        }
 
         exibirMenuFeedback();
 
 
-mostrarProfessores();
+        mostrarProfessores();
 
 
 
