@@ -20,6 +20,10 @@ public class teste {
         System.out.print("Digite o número correspondente à sua turma: ");
 
         int decisao = ler.nextInt();
+        while (decisao < 1 || decisao > turmas.length) {
+            System.out.print("Opção inválida! Digite novamente: ");
+            decisao = ler.nextInt();
+        }
         return decisao;
     }
 
