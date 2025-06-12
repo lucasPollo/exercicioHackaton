@@ -6,6 +6,8 @@ public class atividade {
     public static String[] turmas = {
         "ADS", "Sistemas", "Agronomia", "Administração"};
 
+    static int escolhaAvaliar = 0;
+    
 
     public static String[] professoresCursoAds = {"Sandro", "Anderson", "João", "Josimar"};
     public static String[] professoresCursoSistemas = {"Felipe", "Anderson", "Sandro", "Douglas", "Joao"};
@@ -47,6 +49,7 @@ public class atividade {
 
         System.out.println("Obrigado pela sua avaliação!");
         System.out.println("========================================");
+        System.out.println("Professor avaliado: " + professoresCursoAds[escolhaAvaliar + 1]);
         System.out.println("Pontos fortes: " + pontosFortes);
         System.out.println("Pontos a melhorar: " + pontosFracos);
         System.out.println("Nota dada: " + nota);
@@ -121,7 +124,7 @@ for(int i =0; i < professoresCursoAds.length; i++) {
                 }
                 Scanner av = new Scanner(System.in);
                 System.out.println("Que professor você gostaria de avaliar? (1-" + professores.length + ")");
-                int escolhaAvaliar = av.nextInt();
+                escolhaAvaliar = av.nextInt();
                 break;
             }
 
