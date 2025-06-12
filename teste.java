@@ -72,7 +72,7 @@ public class teste {
                 }
             } while (nota < 0 || nota > 10);
             notas[i] = nota;
-            ler.nextLine(); // limpar o buffer
+            ler.nextLine(); 
 
             System.out.println("Avaliação registrada!\n");
         }
